@@ -1,30 +1,30 @@
-# Backend Express + Supabase
+## Repositorio
 
-## Requisitos
-- Node.js 18 o superior
+https://github.com/coro84601-pixel/backend-supabase
 
-## Configuración
-1. Copia `.env.example` a `.env`
-2. Completa estas variables:
+---
 
-```env
-SUPABASE_URL=https://tu-proyecto.supabase.co
-SUPABASE_ANON_KEY=tu_clave_anonima
-```
+## Definition of Done (DoD)
 
-## Instalar dependencias
-```bash
-npm install
-```
+- Backend funcional sin errores
+- API conectada a Supabase
+- Base de datos con datos reales
+- Endpoint /pedido funcionando
+- Frontend consumiendo API (UI → API → DB)
+- Código versionado en GitHub
 
-## Ejecutar
-```bash
-npm start
-```
+---
 
-## Endpoint
-- `GET /pedido`
-- Consulta la tabla `pedidos` y devuelve JSON
+## Definition of Ready (DoR)
 
-## Puerto
-- `3000`
+- Historia de usuario definida
+- Base de datos creada en Supabase
+- Endpoints planificados
+- Frontend básico listo
+- Variables de entorno configuradas
+
+---
+
+## Smoke Test
+
+UI → API → Supabase → JSON funcionando correctamente
